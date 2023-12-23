@@ -28,7 +28,7 @@ with open(CSS_FILE) as stylesheet:
     st.markdown(f"<style>{stylesheet.read()}</style>", unsafe_allow_html=True)
 
 PERSON_NAME = get_person_name()
-st.header(f"Happy Holidays, {PERSON_NAME}! 🎄", anchor=False)
+st.header(f"Merry Christmas, {PERSON_NAME}! 🎄", anchor=False)
 
 lottie_animation = load_lottie_animation(LOTTIE_ANIMATION)
 st_lottie(lottie_animation, key="lottie-holiday", height=300)
