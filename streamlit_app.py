@@ -41,13 +41,3 @@ st.markdown(
     f"From Bradley Naylor"   
 )
 
-st.markdown(
-    """
-    <style>
-        .viewerBadge_container__1QSob {
-            display: none;
-        }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
